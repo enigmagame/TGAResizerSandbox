@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{456dfc0f-ff1d-484a-ae53-888495a4d282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Loader">
+      <UniqueIdentifier>{adfad153-e0b2-4238-ace0-7a55c065bdbc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common\Utilities.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader\TGAImage.h">
+      <Filter>Loader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Loader\TGAImage.cpp">
+      <Filter>Loader</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
